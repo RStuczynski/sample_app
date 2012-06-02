@@ -32,6 +32,9 @@ group :test do
   gem 'launchy', '2.1.0'
   gem 'rb-fsevent', '0.9.1'
   gem 'growl', '1.0.3'
+  gem 'spork-testunit'
+  gem 'guard-test'
+  gem 'ruby-prof'
 end
 
 group :production do
